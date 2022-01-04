@@ -1,0 +1,30 @@
+//
+//  dev.debug.xcconfig
+//  Typescript Starter
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-ExampleApp/Pods-ExampleApp.debug.xcconfig"
+
+#include? "tmp.xcconfig"
+
+ENVFILE = .env.dev.debug
+
+PRODUCT_BUNDLE_IDENTIFIER = com.ios.example-app.develop
+
+APP_NAME = Example App (debug)
+
+DEVELOPMENT_TEAM = SOME_TEAM
+
+CODE_SIGN_STYLE = Automatic
+
+CODE_SIGN_IDENTITY = iPhone Developer
+
+PROVISIONING_PROFILE_SPECIFIER =
+
+VERSION_ORIGIN = origin/develop
+
+SENTRY_PROJECT_SLUG = example-app-app-dev
+
+URL_SCHEME = example-app
